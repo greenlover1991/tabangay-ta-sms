@@ -1,0 +1,8 @@
+{
+  "name": "Tabangay Ta! SMS",
+  "description": "Tabangay Ta! SMS backend",
+  "repository": "https://github.com/greenlover1991/tabangay-ta-sms",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+  "keywords": ["tabangay-ta", "tabangayta"],
+  "image": "heroku/nodejs"
+}
