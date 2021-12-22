@@ -2,7 +2,9 @@ const express = require('express')
 const axios = require('axios')
 
 const app = express()
+
 const PORT = process.env.PORT || 3000
+const shortcode = 6420;
 
 app.get('/redirect', (req, res) => {
   // After someone subscribed:
@@ -51,14 +53,20 @@ app.post('/redirect', (req, res) => {
   res.send('Hello World from REDIRECT!')
 })
 
+app.get('/test-send', (req, res) => {
+  const {access_token, address, message} = req.query
+  send(access_token, address, message)
+})
+
 app.listen(PORT, () => console.log(`Listening on ${PORT}`))
 
-function send (shortcode, access_token, address, clientCorrelator, message) {
+function send (access_token, address, message) {
+
   // const shortcode = '2648';
   // const access_token = 'A-2szoYus7mB13l5axDrr_1234AApSz8eu236GRNsoBQ';
-  // const address = '9771234567';
+  // const address = '+639xxxxxxxxx';
   // const clientCorrelator = '264801';
-  // const message = 'NodeJS SMS Test';
+  // const message = 'Tabangay SMS Test';
 
   const options = {
     url: 'https://devapi.globelabs.com.ph/smsmessaging/v1/outbound/' + shortcode + '/requests',
@@ -70,7 +78,6 @@ function send (shortcode, access_token, address, clientCorrelator, message) {
      {
        outboundSMSMessageRequest:
         {
-          clientCorrelator,
           senderAddress: shortcode,
           outboundSMSTextMessage: { message },
           address
