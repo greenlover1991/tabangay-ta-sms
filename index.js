@@ -6,6 +6,11 @@ const app = express()
 const PORT = process.env.PORT || 3000
 const shortcode = 6420
 
+app.get('/', (req, res) => {
+  console.log('root')
+  res.send('hello world root')
+})
+
 app.get('/redirect', (req, res) => {
   // After someone subscribed:
   // sample: /?access_token=E1enKbxfLBUH7b_1E500G_V16fM-Yxmm1VHAR15Re9I&subscriber_number=9179471234
