@@ -4,7 +4,7 @@ const axios = require('axios')
 const app = express()
 
 const PORT = process.env.PORT || 3000
-const shortcode = 6420;
+const shortcode = 6420
 
 app.get('/redirect', (req, res) => {
   // After someone subscribed:
@@ -13,7 +13,7 @@ app.get('/redirect', (req, res) => {
   if (req.query && req.query.access_token && req.query.subscriber_number) {
     res.send('Hello World from REDIRECT!')
   } else {
-    res.status(404).send('Sorry, nothing here!')
+    res.send('missing query params')
   }
 })
 
