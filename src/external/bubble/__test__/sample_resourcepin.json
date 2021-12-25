@@ -1,0 +1,203 @@
+{
+  "response": {
+    "cursor": 0,
+    "results": [
+      {
+        "geolocation": {
+          "address": "6 Sct. Tuason St, Diliman, Quezon City, Metro Manila, Philippines",
+          "lat": 14.6279624,
+          "lng": 121.0321243
+        },
+        "locationName": "Viera",
+        "locationNotes": "Near Tomas",
+        "Rel-Comments": [
+          "1639844146439x632089072808230900",
+          "1639916705030x564500816584507400",
+          "1640012156479x460607894636199940",
+          "1640012402475x672203622333546500",
+          "1640180524693x680137367077519400"
+        ],
+        "resourceImage": "//s3.amazonaws.com/appforest_uf/f1639838995648x396857287257806660/Screen%20Shot%202021-12-18%20at%2010.49.14%20PM.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Charging Station",
+        "text-address": "Viera Residences",
+        "upvotes": 6,
+        "Created By": "1639829760316x147658039383056220",
+        "Created Date": "2021-12-18T14:50:01.321Z",
+        "Modified Date": "2021-12-23T07:31:40.584Z",
+        "pinmarker": "//s3.amazonaws.com/appforest_uf/f1640244698443x428562737431286340/icons8-pin-64%20%282%29.png",
+        "_id": "1639839000106x866794661153341400"
+      },
+      {
+        "geolocation": {
+          "address": "M. L. Quezon Ave, Mandaue City, 6014 Cebu, Philippines",
+          "lat": 10.3402987,
+          "lng": 123.9351215
+        },
+        "locationName": "Shell Maguikay",
+        "locationNotes": "Near Holy family",
+        "Rel-Comments": [
+          "1639873270099x853075531735236600",
+          "1640174432458x970430535265419300",
+          "1640180656891x268862563154919420"
+        ],
+        "resourceImage": "https://www.apricotmaps.com/resources/Pictures/docs/no-image.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Fuel for Vehicles",
+        "upvotes": 5,
+        "Created By": "1639873182916x195717154629642120",
+        "Created Date": "2021-12-19T00:20:52.656Z",
+        "Modified Date": "2021-12-22T13:44:18.689Z",
+        "Slug": "shell-maguikay",
+        "_id": "1639873251591x700156508965961700"
+      },
+      {
+        "geolocation": {
+          "address": "330 M. L. Quezon Ave, Mandaue City, Cebu, Philippines",
+          "lat": 10.3370153,
+          "lng": 123.937596
+        },
+        "locationName": "Petron Maguikay",
+        "locationNotes": "Near holy family",
+        "Rel-Comments": ["1639873360096x331848357911199740"],
+        "resourceImage": "https://www.apricotmaps.com/resources/Pictures/docs/no-image.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Fuel for Vehicles",
+        "upvotes": 5,
+        "Created By": "1639873182916x195717154629642120",
+        "Created Date": "2021-12-19T00:22:19.357Z",
+        "Modified Date": "2021-12-19T05:26:15.923Z",
+        "Slug": "petron-maguikay",
+        "_id": "1639873339123x998477184923861000"
+      },
+      {
+        "geolocation": {
+          "address": "Seaside Ave, Cebu South Coastal Rd, Cebu City, Cebu, Philippines",
+          "lat": 10.2818137,
+          "lng": 123.879801
+        },
+        "locationName": "SM Seaside",
+        "locationNotes": "Seaside",
+        "resourceImage": "//s3.amazonaws.com/appforest_uf/f1639847980784x476629335273746750/download.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Charging Station",
+        "upvotes": 5,
+        "Created By": "1639886122071x969914311545814100",
+        "Created Date": "2021-12-19T04:26:16.458Z",
+        "Modified Date": "2021-12-23T07:31:40.628Z",
+        "pinmarker": "//s3.amazonaws.com/appforest_uf/f1640244698443x428562737431286340/icons8-pin-64%20%282%29.png",
+        "_id": "1639887975756x699395926799941600"
+      },
+      {
+        "geolocation": {
+          "address": "H. Abellana St H Abellana, Mandaue City, 6014 Cebu, Philippines",
+          "lat": 10.3679591,
+          "lng": 123.9265432
+        },
+        "locationName": "H Abellana",
+        "locationNotes": "test",
+        "resourceImage": "//s3.amazonaws.com/appforest_uf/f1639847980784x476629335273746750/download.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Fuel for Vehicles",
+        "upvotes": 5,
+        "Created By": "1639886122071x969914311545814100",
+        "Created Date": "2021-12-19T04:27:38.075Z",
+        "Modified Date": "2021-12-19T05:26:16.099Z",
+        "_id": "1639888057214x343585269281456100"
+      },
+      {
+        "geolocation": {
+          "address": "Main Rd Brgy, Mandaue City, 6014 Cebu, Philippines",
+          "lat": 10.3372725,
+          "lng": 123.9536429
+        },
+        "locationName": "Shell Plaridel",
+        "locationNotes": "Shell Plaridel near Maayo Hotel - open according to Mandaue PIO",
+        "resourceImage": "//s3.amazonaws.com/appforest_uf/f1639847980784x476629335273746750/download.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Fuel for Vehicles",
+        "upvotes": 5,
+        "Created By": "1639886122071x969914311545814100",
+        "Created Date": "2021-12-19T04:45:49.527Z",
+        "Modified Date": "2021-12-19T05:26:16.147Z",
+        "_id": "1639889148767x209514793415475200"
+      },
+      {
+        "geolocation": {
+          "address": "Cebu IT Park, Cebu City, Cebu, Philippines",
+          "lat": 10.3304499,
+          "lng": 123.9073923
+        },
+        "locationName": "IT Park",
+        "locationNotes": "IT PArk",
+        "resourceImage": "https://www.apricotmaps.com/resources/Pictures/docs/no-image.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Signal / WiFi",
+        "upvotes": 0,
+        "Created By": "1639886122071x969914311545814100",
+        "Created Date": "2021-12-19T09:49:44.245Z",
+        "Modified Date": "2021-12-19T09:49:44.574Z",
+        "Slug": "it-park",
+        "CarrierList": ["Smart", "Sun"],
+        "_id": "1639907383149x439308956040429600"
+      },
+      {
+        "geolocation": {
+          "address": "6 Sct. Tuason St, Diliman, Quezon City, Metro Manila, Philippines",
+          "lat": 14.6279624,
+          "lng": 121.0321243
+        },
+        "locationName": "IT PArk",
+        "locationNotes": "IT PARK",
+        "resourceImage": "https://www.apricotmaps.com/resources/Pictures/docs/no-image.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Signal / WiFi",
+        "upvotes": 0,
+        "Created By": "1639886122071x969914311545814100",
+        "Created Date": "2021-12-19T11:26:27.734Z",
+        "Modified Date": "2021-12-20T03:39:14.705Z",
+        "Slug": "it-park-1",
+        "CarrierList": ["Globe", "Sun"],
+        "_id": "1639913186645x358540869490704400"
+      },
+      {
+        "geolocation": {
+          "address": "Quezon Avenue, corner Scout Magbanua Street, Diliman, Quezon City, 1003 Metro Manila, Philippines",
+          "lat": 14.6342467,
+          "lng": 121.0228414
+        },
+        "locationName": "Capitol Medical",
+        "locationNotes": "Congressional",
+        "resourceImage": "https://www.apricotmaps.com/resources/Pictures/docs/no-image.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Clinics / Pharmacies",
+        "upvotes": 0,
+        "Created By": "1639886122071x969914311545814100",
+        "Created Date": "2021-12-19T12:16:22.164Z",
+        "Modified Date": "2021-12-19T12:16:22.400Z",
+        "Slug": "capitol-medical",
+        "_id": "1639916181049x191077925651480580"
+      },
+      {
+        "geolocation": {
+          "address": "Rizal Drive cor. 32nd St. and, 5th Ave, Taguig, 1634 Metro Manila, Philippines",
+          "lat": 14.5549307,
+          "lng": 121.0482491
+        },
+        "locationName": "St Lukes",
+        "locationNotes": "BGC",
+        "resourceImage": "https://www.apricotmaps.com/resources/Pictures/docs/no-image.png",
+        "resourceStatus": "Available",
+        "ResourceType": "Clinics / Pharmacies",
+        "upvotes": 0,
+        "Created By": "1639886122071x969914311545814100",
+        "Created Date": "2021-12-19T12:18:21.309Z",
+        "Modified Date": "2021-12-19T12:18:21.554Z",
+        "Slug": "st-lukes",
+        "_id": "1639916300483x310834230679306240"
+      }
+    ],
+    "remaining": 32,
+    "count": 10
+  }
+}

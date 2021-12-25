@@ -7,20 +7,16 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js",
-    "lint:fix": "npx eslint --fix index.js"
+    "start": "node --require dotenv/config index.js",
+    "test": "jest --setupFiles dotenv/config"
   },
   "dependencies": {
     "axios": "^0.24.0",
     "express": "^4.15.2"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0"
+    "dotenv": "^10.0.0",
+    "jest": "^27.4.5"
   },
   "repository": {
     "type": "git",
