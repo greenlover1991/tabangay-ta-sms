@@ -1,0 +1,2 @@
+# ignore tests (no CI pipeline yet)
+__test__/

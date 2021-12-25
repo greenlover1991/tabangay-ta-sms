@@ -1,21 +1,26 @@
 const express = require('express');
+const smsUtils = require('./src/utilities/sms_utils');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 app.use(express.urlencoded({
   extended: true
 }));
 
 app.get('/', (req, res) => {
-  console.log('root');
-  res.send('hello world root');
+  res.send('Hello world!');
 });
 
-app.post('/notify', (req, res) => {
-  console.log('notify: ', req.body);
-  console.log('message from', req.body.body, req.body.from);
-  res.send('ok notify');
+
+app.post('/notify', async (req, res) => {
+  console.log('Notify callback triggered: ', req.body);
+
+  const recipient = req.body.from;
+  const incomingSmsMessage = req.body.body;
+  await smsUtils.sendLocationNames(recipient, incomingSmsMessage);
+
+  res.send('Responded');
 });
 
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));
