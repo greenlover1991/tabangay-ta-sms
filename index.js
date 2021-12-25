@@ -18,7 +18,11 @@ app.post('/notify', async (req, res) => {
 
   const recipient = req.body.from;
   const incomingSmsMessage = req.body.body;
-  await smsUtils.sendLocationNames(recipient, incomingSmsMessage);
+  try {
+    await smsUtils.sendLocationNames(recipient, incomingSmsMessage);
+  } catch (e) {
+    console.log('notify error: ', e);
+  }
 
   res.send('Responded');
 });
