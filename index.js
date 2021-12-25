@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
 
 app.post('/notify', (req, res) => {
   console.log('notify: ', req.body);
+  console.log('message from', req.body.body, req.body.from);
   res.send('ok notify');
 });
 
